@@ -1,0 +1,81 @@
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+INFO  Farewell
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+ERROR Theme config load failed.
+ERROR Process failed: _config.yml
+YAMLException: bad indentation of a mapping entry at line 161, column 3:
+      position: left
+      ^
+    at generateError (/home/hexo/hexo/node_modules/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:162:10)
+    at throwError (/home/hexo/hexo/node_modules/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:168:9)
+    at readBlockMapping (/home/hexo/hexo/node_modules/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1075:7)
+    at composeNode (/home/hexo/hexo/node_modules/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1327:12)
+    at readDocument (/home/hexo/hexo/node_modules/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1489:3)
+    at loadDocuments (/home/hexo/hexo/node_modules/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1545:5)
+    at Object.load (/home/hexo/hexo/node_modules/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1562:19)
+    at Hexo.yamlHelper (/home/hexo/hexo/node_modules/hexo/lib/plugins/renderer/yaml.js:7:15)
+    at Hexo.tryCatcher (/home/hexo/hexo/node_modules/hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Hexo.<anonymous> (/home/hexo/hexo/node_modules/hexo/node_modules/bluebird/js/release/method.js:15:34)
+    at /home/hexo/hexo/node_modules/hexo/lib/hexo/render.js:61:21
+    at tryCatcher (/home/hexo/hexo/node_modules/hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/hexo/hexo/node_modules/hexo/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/home/hexo/hexo/node_modules/hexo/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/hexo/hexo/node_modules/hexo/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/hexo/hexo/node_modules/hexo/node_modules/bluebird/js/release/promise.js:691:18)
+    at Async._drainQueue (/home/hexo/hexo/node_modules/hexo/node_modules/bluebird/js/release/async.js:138:16)
+    at Async._drainQueues (/home/hexo/hexo/node_modules/hexo/node_modules/bluebird/js/release/async.js:148:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/hexo/hexo/node_modules/hexo/node_modules/bluebird/js/release/async.js:17:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)
+ERROR Theme config load failed.
+ERROR Process failed: _config.yml
+YAMLException: bad indentation of a mapping entry at line 161, column 3:
+      position: left
+      ^
+    at generateError (/home/hexo/hexo/node_modules/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:162:10)
+    at throwError (/home/hexo/hexo/node_modules/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:168:9)
+    at readBlockMapping (/home/hexo/hexo/node_modules/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1075:7)
+    at composeNode (/home/hexo/hexo/node_modules/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1327:12)
+    at readDocument (/home/hexo/hexo/node_modules/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1489:3)
+    at loadDocuments (/home/hexo/hexo/node_modules/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1545:5)
+    at Object.load (/home/hexo/hexo/node_modules/hexo/node_modules/js-yaml/lib/js-yaml/loader.js:1562:19)
+    at Hexo.yamlHelper (/home/hexo/hexo/node_modules/hexo/lib/plugins/renderer/yaml.js:7:15)
+    at Hexo.tryCatcher (/home/hexo/hexo/node_modules/hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Hexo.<anonymous> (/home/hexo/hexo/node_modules/hexo/node_modules/bluebird/js/release/method.js:15:34)
+    at /home/hexo/hexo/node_modules/hexo/lib/hexo/render.js:61:21
+    at tryCatcher (/home/hexo/hexo/node_modules/hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/hexo/hexo/node_modules/hexo/node_modules/bluebird/js/release/promise.js:510:31)
+    at Promise._settlePromise (/home/hexo/hexo/node_modules/hexo/node_modules/bluebird/js/release/promise.js:567:18)
+    at Promise._settlePromise0 (/home/hexo/hexo/node_modules/hexo/node_modules/bluebird/js/release/promise.js:612:10)
+    at Promise._settlePromises (/home/hexo/hexo/node_modules/hexo/node_modules/bluebird/js/release/promise.js:691:18)
+    at Async._drainQueue (/home/hexo/hexo/node_modules/hexo/node_modules/bluebird/js/release/async.js:138:16)
+    at Async._drainQueues (/home/hexo/hexo/node_modules/hexo/node_modules/bluebird/js/release/async.js:148:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/hexo/hexo/node_modules/hexo/node_modules/bluebird/js/release/async.js:17:14)
+    at processImmediate [as _immediateCallback] (timers.js:358:17)
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/blog/. Press Ctrl+C to stop.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/blog/. Press Ctrl+C to stop.
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
